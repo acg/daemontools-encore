@@ -1,13 +1,12 @@
-Source: daemontools-encore
+Source: daemontools
 Section: admin
 Priority: optional
 Maintainer: Alan Grow <alangrow+daemontools-encore@gmail.com>
 Standards-Version: 3.7.3.0
 
-Package: daemontools-encore
+Package: daemontools
 Architecture: any
 Depends: ${shlibs:Depends}
-Replaces: daemontools-doc, daemontools
 Description: a collection of tools for managing UNIX services
  supervise monitors a service. It starts the service and restarts the
  service if it dies. Setting up a new service is easy: all supervise
