@@ -1,11 +1,11 @@
-Source: daemontools-encore
+Source: daemontools
 Section: admin
 Priority: optional
 Maintainer: Alan Grow <agrow@iobound.net>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.7.3.0
 
-Package: daemontools-encore
+Package: daemontools
 Architecture: any
 Depends: ${shlibs:Depends}
 Replaces: daemontools-doc, daemontools
