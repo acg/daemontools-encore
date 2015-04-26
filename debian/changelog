@@ -1,3 +1,9 @@
+daemontools (1:1.10) trusty; urgency=low
+
+  * bump ubuntu package to to 1.10.
+
+ -- Alan Grow <agrow@iobound.net>  Sun, 26 Apr 2015 17:44:13 -0600
+
 daemontools (1:1.05-1) lucid; urgency=low
 
   * initial debianization
