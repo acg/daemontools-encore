@@ -2,6 +2,7 @@ Source: daemontools-encore
 Section: admin
 Priority: optional
 Maintainer: Alan Grow <agrow@iobound.net>
+Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.7.3.0
 
 Package: daemontools-encore
