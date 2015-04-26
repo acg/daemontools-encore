@@ -1,7 +1,7 @@
 Source: daemontools-encore
 Section: admin
 Priority: optional
-Maintainer: Alan Grow <alangrow+daemontools-encore@gmail.com>
+Maintainer: Alan Grow <agrow@iobound.net>
 Standards-Version: 3.7.3.0
 
 Package: daemontools-encore
