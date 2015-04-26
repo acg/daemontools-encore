@@ -1,4 +1,4 @@
-daemontools-encore (1:1.05-1) lucid; urgency=low
+daemontools (1:1.05-1) lucid; urgency=low
 
   * initial debianization
 
