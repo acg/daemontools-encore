@@ -1,1 +1,1 @@
-dependon rts sysdeps man
+dependon programs sysdeps man
