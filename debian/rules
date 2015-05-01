@@ -1,6 +1,8 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
+DIR = ./debian/daemontools
+
 build: patch-stamp Makefile 
 
 binary: build
@@ -17,4 +19,10 @@ patch-stamp:
 
 %:
 	dh $@
+
+override_dh_install:
+	install -d -m 0755 $(DIR)/usr/bin
+	grep ^c BIN | cut -f6 -d: | xargs install -m 0755 -t $(DIR)/usr/bin
+	install -d -m 0755 $(DIR)/usr/share/man/man8
+	grep ^c MAN | cut -f6 -d: | xargs install -m 0644 -t $(DIR)/usr/share/man/man8
 
