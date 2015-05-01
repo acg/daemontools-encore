@@ -3,9 +3,20 @@
 
 DIR = ./debian/daemontools
 
-build: patch-stamp Makefile 
+
+build: patch-stamp Makefile
+
+build-arch: patch-stamp Makefile
+
+build-indep: patch-stamp Makefile
+
 
 binary: build
+
+binary-arch: build-arch
+
+binary-indep: build-indep
+
 
 Makefile:
 	./makemake
