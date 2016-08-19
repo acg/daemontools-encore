@@ -27,7 +27,8 @@ sets $PATH to
 
 (all in one line, no space)
 
-and clears all other environment variables.
+and clears all other environment variables. If the file /etc/environment
+is present, it is sourced in before running the pipeline.
 .SH SEE ALSO
 supervise(8),
 svc(8),
