@@ -1,3 +1,9 @@
+daemontools (1:1.11) trusty; urgency=medium
+
+  * bump ubuntu package to 1.11. revert setsid behavior breakages.
+
+ -- Alan Grow <agrow@iobound.net>  Fri, 08 Jan 2016 18:04:15 -0700
+
 daemontools (1:1.10) trusty; urgency=low
 
   * bump ubuntu package to 1.10.
