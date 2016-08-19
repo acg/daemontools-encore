@@ -1,3 +1,9 @@
+daemontools (1:1.12) trusty; urgency=medium
+
+  * bump ubuntu package to 1.12. respect system environment in svscanboot.
+
+ -- Alan Grow <agrow@iobound.net>  Fri, 19 Aug 2016 13:18:47 -0600
+
 daemontools (1:1.11) trusty; urgency=medium
 
   * bump ubuntu package to 1.11. revert setsid behavior breakages.
