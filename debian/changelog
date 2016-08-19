@@ -1,3 +1,9 @@
+daemontools (1:1.13) trusty; urgency=medium
+
+  * bump ubuntu package to 1.13. auto export /etc/environment in svscanboot.
+
+ -- Alan Grow <agrow@iobound.net>  Fri, 19 Aug 2016 14:18:31 -0600
+
 daemontools (1:1.12) trusty; urgency=medium
 
   * bump ubuntu package to 1.12. respect system environment in svscanboot.
